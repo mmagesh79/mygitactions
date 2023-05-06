@@ -1,5 +1,9 @@
 runs:
   using: "composite"
+  inputs:
+  username:
+    required: true
+    default: noname
   steps: 
     - name: Echo
       shell: bash
