@@ -3,4 +3,5 @@ inputs:
   username:
     required: true
     default: noname
-run: echo Magesh
+run: | 
+  echo Magesh
