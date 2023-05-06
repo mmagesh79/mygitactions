@@ -1,5 +1,5 @@
 name: display hello world
-  input:
+  inputs:
     username:
      default: noname
   run: |
