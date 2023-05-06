@@ -1,12 +1,10 @@
+runs:
+using: "composite"
 inputs:
   usrnameda:
   required: true
   default: none
-outputs:
-  resultout:
-runs:
-  using: "composite"
-  steps: 
+steps: 
     - name: Echo
       shell: bash
       run: |
