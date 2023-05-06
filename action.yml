@@ -3,4 +3,5 @@ inputs:
   username:
     required: true
     default: noname
-run: echo "${{ inputs.username }}"
+run:| 
+    echo "${{ github.event.inputs.username }}"
