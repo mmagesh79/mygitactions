@@ -5,5 +5,7 @@ inputs:
     default: noname
 runs:
   using: "composite" 
-  run: |
-    echo Magesh
+  steps:
+      shell: bash
+      run: |
+        echo Magesh
