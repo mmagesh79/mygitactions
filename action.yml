@@ -1,11 +1,7 @@
-name: display hello world
-inputs:
-  username:
-    required: true
-    default: noname
 runs:
-  using: "composite" 
-  steps:
+  using: "composite"
+  steps: 
+    - name: Echo
       shell: bash
       run: |
-        echo Magesh
+        echo Heyyyyy
