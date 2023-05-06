@@ -3,5 +3,4 @@ inputs:
   username:
     required: true
     default: noname
-run:| 
-    echo "${{ github.event.inputs.username }}"
+run: echo Magesh
