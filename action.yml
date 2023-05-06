@@ -1,7 +1,13 @@
+inputs:
+  usrnameda:
+  required: true
+  default: none
+outputs:
+  resultout:
 runs:
   using: "composite"
   steps: 
     - name: Echo
       shell: bash
       run: |
-        echo Heyyyyy
+        echo Heyyyyy "${{ outputs.resultout }}"
