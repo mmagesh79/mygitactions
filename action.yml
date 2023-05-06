@@ -1,6 +1,6 @@
 name: display hello world
-  inputs:
-    username:
-     default: noname
-  run: |
-    echo "${{ username }}"
+inputs:
+  username:
+    required: true
+    default: noname
+run: echo "${{ username }}"
