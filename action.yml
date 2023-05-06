@@ -1,0 +1,6 @@
+name: display hello world
+  input:
+    username:
+     default: noname
+  run: |
+    echo "${{ username }}"
