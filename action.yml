@@ -1,12 +1,9 @@
 name: display hello world
-
 inputs:
   username:
     required: true
     default: noname
-
 runs:
-  using: "composite"
-  steps: 
-      run: |
-        echo Magesh
+  using: "composite" 
+  run: |
+    echo Magesh
