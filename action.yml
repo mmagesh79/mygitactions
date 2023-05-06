@@ -3,4 +3,4 @@ inputs:
   username:
     required: true
     default: noname
-run: echo "${{ username }}"
+run: echo "${{ inputs.username }}"
