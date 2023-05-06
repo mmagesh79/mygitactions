@@ -1,5 +1,9 @@
 ---
-
+inputs:
+  usrnameda:
+    description: user name as input value
+    required: true
+    default: usernamenotprovided
 runs:
   using: composite
   steps: 
